@@ -23,7 +23,6 @@ import 'layout/todo_app/home_layout.dart';
 // ignore: unused_import
 //import 'modules/search_screen/search_screen.dart';
 // ignore: invalid_language_version_override
-//test2
 // ignore: invalid_language_version_override
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
