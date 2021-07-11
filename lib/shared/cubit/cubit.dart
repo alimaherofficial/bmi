@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:bmi/modules/archived_tasks/archived_tasks_screen.dart';
-import 'package:bmi/modules/done_tasks/done_tasks_screen.dart';
-import 'package:bmi/modules/new_tasks/new_tasks_screen.dart';
+import 'package:bmi/modules/todo_app/archived_tasks/archived_tasks_screen.dart';
+import 'package:bmi/modules/todo_app/done_tasks/done_tasks_screen.dart';
+import 'package:bmi/modules/todo_app/new_tasks/new_tasks_screen.dart';
 import 'package:bmi/shared/cubit/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

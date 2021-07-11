@@ -1,4 +1,4 @@
-import 'package:bmi/modules/search_screen/search_screen.dart';
+import 'package:bmi/modules/crm_app/search_screen/search_screen.dart';
 import 'package:bmi/shared/components/components.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

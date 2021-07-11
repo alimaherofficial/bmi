@@ -1,4 +1,4 @@
-import 'package:bmi/modules/data_taker/data_taker.dart';
+import 'package:bmi/modules/crm_app/data_taker/data_taker.dart';
 import 'package:bmi/shared/components/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

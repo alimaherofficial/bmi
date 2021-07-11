@@ -1,18 +1,10 @@
-// ignore: unused_import
-import 'package:bmi/modules/archived_tasks/archived_tasks_screen.dart';
-// ignore: unused_import
-import 'package:bmi/modules/done_tasks/done_tasks_screen.dart';
-// ignore: unused_import
-import 'package:bmi/modules/new_tasks/new_tasks_screen.dart';
+
 import 'package:bmi/shared/components/components.dart';
 import 'package:bmi/shared/cubit/cubit.dart';
-// ignore: unused_import
 import 'package:bmi/shared/cubit/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-// ignore: unused_import
-import 'package:sqflite/sqflite.dart';
 
 // ignore: use_key_in_widget_constructors
 // ignore: must_be_immutable

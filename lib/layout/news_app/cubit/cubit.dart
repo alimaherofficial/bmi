@@ -1,7 +1,7 @@
 import 'package:bmi/layout/news_app/cubit/states.dart';
-import 'package:bmi/modules/business/business.dart';
-import 'package:bmi/modules/science/science.dart';
-import 'package:bmi/modules/sports/sports.dart';
+import 'package:bmi/modules/news_app/business/business.dart';
+import 'package:bmi/modules/news_app/science/science.dart';
+import 'package:bmi/modules/news_app/sports/sports.dart';
 import 'package:bmi/network/remote/dio_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

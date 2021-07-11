@@ -1,6 +1,6 @@
 import 'package:bmi/layout/news_app/cubit/cubit.dart';
 import 'package:bmi/layout/news_app/cubit/states.dart';
-import 'package:bmi/modules/search_news/search_news_screen.dart';
+import 'package:bmi/modules/news_app/search_news/search_news_screen.dart';
 import 'package:bmi/shared/components/components.dart';
 import 'package:bmi/shared/cubit/cubit.dart';
 import 'package:flutter/material.dart';

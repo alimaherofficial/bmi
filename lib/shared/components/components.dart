@@ -1,4 +1,4 @@
-import 'package:bmi/modules/web_view/web_view.dart';
+import 'package:bmi/modules/news_app/web_view/web_view.dart';
 import 'package:bmi/shared/cubit/cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_conditional_rendering/conditional.dart';

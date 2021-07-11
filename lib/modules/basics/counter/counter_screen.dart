@@ -1,7 +1,6 @@
-import 'package:bmi/modules/counter/cubit/cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
+import 'package:bmi/modules/basics/counter/cubit/cubit.dart';
 import 'cubit/states.dart';
 
 // ignore: must_be_immutable
