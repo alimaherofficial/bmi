@@ -132,22 +132,22 @@ class NewsCubit extends Cubit<NewsStates> {
     search = [];
     emit(NewsGetSearchloadingState());
     DioHelper.getData(url: 'v2/everything', query: {
-        // ignore: unnecessary_string_interpolations
-        'q': '$value',
-        'from': '2021-06-04',
-        'sortBy': 'publishedAt',
-        'apiKey': 'a125c5fc5d0b41e7b7e8c537328d34e2',
-      }).then((value) {
-        // ignore: avoid_print
-        print(value.data['articles'][0]['title']);
-        search = value.data['articles'];
-        // ignore: avoid_print
-        print(search[0]['title']);
-        emit(NewsGetSearchSuccessState());
-      }).catchError((error) {
-        // ignore: avoid_print
-        print(error.toString());
-        emit(NewsGetSearchErrorState(error.toString()));
-      });
+      // ignore: unnecessary_string_interpolations
+      'q': '$value',
+      'from': '2021-06-11',
+      'sortBy': 'publishedAt',
+      'apiKey': 'a125c5fc5d0b41e7b7e8c537328d34e2',
+    }).then((value) {
+      // ignore: avoid_print
+      print(value.data['articles'][0]['title']);
+      search = value.data['articles'];
+      // ignore: avoid_print
+      print(search[0]['title']);
+      emit(NewsGetSearchSuccessState());
+    }).catchError((error) {
+      // ignore: avoid_print
+      print(error.toString());
+      emit(NewsGetSearchErrorState(error.toString()));
+    });
   }
 }
