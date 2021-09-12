@@ -132,7 +132,7 @@ class MyApp extends StatelessWidget {
             themeMode: AppCubit.get(context).isDark
                 ? ThemeMode.dark
                 : ThemeMode.light, // ignore: prefer_const_constructors
-            home: const NewsLayout(),
+            home:  HomeLayout(),
           );
         },
       ),
