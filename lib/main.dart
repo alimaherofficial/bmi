@@ -72,6 +72,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                 ),
                 elevation: 0.0,
+                // ignore: deprecated_member_use
                 backwardsCompatibility: false,
                 titleTextStyle: TextStyle(
                   color: Colors.black,
@@ -110,6 +111,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
                 elevation: 0.0,
+                // ignore: deprecated_member_use
                 backwardsCompatibility: false,
                 titleTextStyle: const TextStyle(
                   color: Colors.white,
