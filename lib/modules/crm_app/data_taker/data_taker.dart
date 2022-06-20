@@ -1,18 +1,16 @@
 import 'package:bmi/modules/crm_app/search_screen/search_screen.dart';
 import 'package:bmi/shared/components/components.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 import 'package:intl/intl.dart';
 
 class DataTakerScreen extends StatefulWidget {
   const DataTakerScreen({Key? key}) : super(key: key);
 
   @override
-  _DataTakerScreenState createState() => _DataTakerScreenState();
+  DataTakerScreenState createState() => DataTakerScreenState();
 }
 
-class _DataTakerScreenState extends State<DataTakerScreen> {
+class DataTakerScreenState extends State<DataTakerScreen> {
   var customernamecontroller = TextEditingController();
   var customernumbercontroller = TextEditingController();
   var customerEmailcontroller = TextEditingController();

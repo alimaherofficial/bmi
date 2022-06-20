@@ -89,7 +89,7 @@ Widget buildTaskItem(Map model, context) => Dismissible(
 
           children: [
             CircleAvatar(
-              backgroundColor: Colors.blue,
+              backgroundColor: Colors.pinkAccent,
               radius: 45.0,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),

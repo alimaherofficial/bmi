@@ -1,11 +1,11 @@
 import 'package:bmi/modules/crm_app/data_taker/data_taker.dart';
 import 'package:bmi/shared/components/components.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-// ignore: must_be_immutable
-// ignore: use_key_in_widget_constructors
+
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({Key? key}) : super(key: key);
+
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }

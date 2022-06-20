@@ -1,4 +1,3 @@
-import 'package:bloc/bloc.dart';
 import 'package:bmi/modules/todo_app/archived_tasks/archived_tasks_screen.dart';
 import 'package:bmi/modules/todo_app/done_tasks/done_tasks_screen.dart';
 import 'package:bmi/modules/todo_app/new_tasks/new_tasks_screen.dart';
